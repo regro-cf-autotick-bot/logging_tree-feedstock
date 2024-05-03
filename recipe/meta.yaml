@@ -1,5 +1,5 @@
 {% set name = "logging_tree" %}
-{% set version = "1.9" %}
+{% set version = "1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fe78b28788c249b515d12a50417e4a96ba095582927b3601a0573886bffc1ff0
+  sha256: cd78848fe0ee4aafcc64fa8a66f96f177186ff3d883619b1d7f3628564802095
 
 build:
   number: 0
